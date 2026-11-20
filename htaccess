@@ -1,0 +1,26 @@
+ErrorDocument 403 /page28109666.html
+ErrorDocument 404 /page28109666.html
+
+DirectoryIndex page36618510.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^v-razrabotke$ page28109666.html [NC]
+RewriteRule ^v-razrabotke/$ page28109666.html [NC]
+
+RewriteRule ^menu$ page28109669.html [NC]
+RewriteRule ^menu/$ page28109669.html [NC]
+
+RewriteRule ^vyzov_na_dom_hirurga$ page36624443.html [NC]
+RewriteRule ^vyzov_na_dom_hirurga/$ page36624443.html [NC]
+
+RewriteRule ^voprosy-otvety-prolejni$ page36699319.html [NC]
+RewriteRule ^voprosy-otvety-prolejni/$ page36699319.html [NC]
+
+RewriteRule ^symptomy-i-lechenie$ page58880251.html [NC]
+RewriteRule ^symptomy-i-lechenie/$ page58880251.html [NC]
+
+

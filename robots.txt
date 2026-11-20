@@ -1,0 +1,19 @@
+User-Agent: *
+Disallow: /page28109666.html
+Disallow: /v-razrabotke
+Disallow: /page28109669.html
+Disallow: /menu
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://bez-prolejnei.ru/sitemap.xml
+Host: https://bez-prolejnei.ru
