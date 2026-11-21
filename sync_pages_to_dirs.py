@@ -17,6 +17,7 @@ PAIRS = {
     "symptomy-i-lechenie": "page58880251.html",
     "profilaktika_prolejnei": "page90000001.html",
     "stadii_prolejnei": "page90000002.html",
+    "lechenie_prolejnei_po_stadiyam": "page90000003.html",
 }
 HOMEPAGE_SRC = "page36618510.html"
 
