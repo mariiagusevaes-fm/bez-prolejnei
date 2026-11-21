@@ -15,6 +15,7 @@ PAIRS = {
     "vyzov_na_dom_hirurga": "page36624443.html",
     "voprosy-otvety-prolejni": "page36699319.html",
     "symptomy-i-lechenie": "page58880251.html",
+    "profilaktika_prolejnei": "page90000001.html",
 }
 HOMEPAGE_SRC = "page36618510.html"
 
