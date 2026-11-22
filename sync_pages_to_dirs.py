@@ -19,6 +19,7 @@ PAIRS = {
     "stadii_prolejnei": "page90000002.html",
     "lechenie_prolejnei_po_stadiyam": "page90000003.html",
     "mify_o_prolejnyah": "page90000004.html",
+    "oslozhneniya_prolejnei": "page90000005.html",
 }
 HOMEPAGE_SRC = "page36618510.html"
 
