@@ -66,6 +66,33 @@
       <p>При смене позы лучше чередовать положение на спине и на боках под углом примерно 30 градусов — полный поворот на бок (90 градусов) создаёт сильное давление прямо на тазобедренный сустав. Под спину и колени подкладывают подушки, чтобы зафиксировать позу.</p>
       <p>Перекладывать пациента нужно аккуратно — приподнимая, а не перетаскивая по простыне: трение само по себе травмирует кожу. Пятки стоит приподнимать над поверхностью кровати, подложив подушку под голени — они особенно уязвимы.</p>
     </div>
+    <div class="angle-diagram">
+      <div class="angle-figure reveal">
+        <svg viewBox="0 0 200 170">
+          <line x1="65" y1="130" x2="65" y2="55" stroke="var(--line)" stroke-width="2" stroke-dasharray="3,4"/>
+          <path class="ag-pillow" d="M20,130 L20,100 L95,130 Z"/>
+          <rect class="ag-bed" x="10" y="130" width="180" height="12" rx="5"/>
+          <rect class="ag-body" x="35" y="55" width="130" height="70" rx="35" transform="rotate(-30 65 130)"/>
+          <ellipse cx="65" cy="130" rx="30" ry="6" fill="var(--sage)" opacity="0.4"/>
+          <path class="ag-arc good" d="M65,100 A30,30 0 0,0 44,112" fill="none"/>
+          <text x="32" y="98" font-size="13" font-weight="700" fill="var(--sage)" font-family="'Hanken Grotesk',sans-serif">30°</text>
+        </svg>
+        <span class="cap good">30° — рекомендуется</span>
+        <span class="sub">Давление распределено между спиной и боком</span>
+      </div>
+      <div class="angle-figure reveal">
+        <svg viewBox="0 0 200 170">
+          <line x1="65" y1="130" x2="65" y2="55" stroke="var(--line)" stroke-width="2" stroke-dasharray="3,4"/>
+          <rect class="ag-bed" x="10" y="130" width="180" height="12" rx="5"/>
+          <rect class="ag-body" x="35" y="55" width="130" height="70" rx="35" transform="rotate(-90 65 130)"/>
+          <circle cx="65" cy="130" r="7" fill="var(--danger)"/>
+          <path class="ag-arc bad" d="M65,100 A30,30 0 0,0 35,130" fill="none"/>
+          <text x="24" y="100" font-size="13" font-weight="700" fill="var(--danger)" font-family="'Hanken Grotesk',sans-serif">90°</text>
+        </svg>
+        <span class="cap bad">90° — полный поворот на бок</span>
+        <span class="sub">Давление концентрируется на тазобедренном суставе</span>
+      </div>
+    </div>
   </div>
 </section>
 
